@@ -1,0 +1,92 @@
+.serve-grid {
+    background: #fff;
+    padding: 4em 1em;
+    -webkit-box-shadow: 5px 7px 23px 0px rgba(58, 52, 82, 0.16);
+    -moz-box-shadow: 5px 7px 23px 0px rgba(58, 52, 82, 0.16);
+    box-shadow: 5px 7px 23px 0px rgba(58, 52, 82, 0.16);
+}
+
+.serve-gd1 {
+    margin-top: 12em;
+}
+
+.serve-gd2 {
+    margin-top: 6em;
+}
+
+.serve-gd3 {
+    margin-top: 0em;
+}
+
+.serve-grid p {
+    font-size: 1em;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: #555;
+}
+
+.serve-grid span {
+    font-size: 2em;
+}
+
+.s1 {
+    color: #0099e5;
+}
+
+.s2 {
+    color: #ff4c4c;
+}
+
+.s3 {
+    color: #34bf49;
+}
+
+
+.s4 {
+    color: #0dd3ff;
+}
+
+.s5 {
+    color: #ff4f81;
+}
+
+.s6 {
+    color: #ffd900;
+}
+
+h4.loan-vj {
+    font-size: 1.4em;
+    color: #555;
+}
+
+.welcome-left {
+    margin-top: 11em;
+}
+
+.welcome-left h4 {
+    color: #ec1c24;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.9em;
+    margin-bottom: 1em;
+}
+
+p.test span {
+    font-size: 2em;
+    color: #ff4c4c;
+}
+
+.test-gd img {
+    border-radius: 50%;
+    -webkit-box-shadow: 5px 7px 23px 0px rgba(58, 52, 82, 0.16);
+    -moz-box-shadow: 5px 7px 23px 0px rgba(58, 52, 82, 0.16);
+    box-shadow: 5px 7px 23px 0px rgba(58, 52, 82, 0.16);
+}
+
+.serve-grid.test-gd {
+    background: none;
+    padding: 1em 1em;
+    box-shadow: none;
+}

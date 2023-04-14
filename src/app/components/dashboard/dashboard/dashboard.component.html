@@ -1,0 +1,46 @@
+<app-header></app-header>
+<div class="container">
+<div class="welcome-msg pt-3 pb-4">
+    <h1>Hi <span class="text-dark">{{user.name}}</span>, Welcome back</h1>
+    <p>You logged in as {{user.role}}</p>
+</div>
+
+    <div class="row">
+        <div class="col-md-4 col-sm-12 m-1 ">
+            <div class="card" >
+                     <div class="card-body">
+                    <h5 class="card-title">My Accounts</h5>
+                    <a routerLink="/myAccount" class="btn btn-primary">View Accounts</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 col-sm-12 m-1">
+            <div class="card" >
+                <div class="card-body">
+                    <h5 class="card-title">My Balance</h5>
+                    <a routerLink="/myBalance" class="btn btn-primary">View Balance</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 col-sm-12 m-1">
+            <div class="card" >
+                <div class="card-body">
+                    <h5 class="card-title">My Loans</h5>
+                    <a routerLink="/myLoans" class="btn btn-primary">View Loans</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4  col-sm-12 m-1">
+            <div class="card" >
+                <div class="card-body">
+                    <h5 class="card-title">My Cards</h5>
+                    <a routerLink="/myCards" class="btn btn-primary">View Cards</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
